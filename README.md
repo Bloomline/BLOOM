@@ -434,7 +434,7 @@ Model may:
 
 -   Generate irrelevant or repetitive outputs
 
-Users may perceive the language capabilities of the model as indicative of consciousness.
+-   Induce users into attributing human traits to it, such as sentience or consciousness
 
 </details>
 
