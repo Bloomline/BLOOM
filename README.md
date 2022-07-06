@@ -139,6 +139,7 @@ Please see [the BLOOM training README](https://github.com/bigscience-workshop/bi
     * Sequence length of 2048 tokens used (see [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer), [tokenizer description](#tokenization))
 
 **Objective Function:** Cross Entropy with mean reduction (see [API documentation](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)).
+
     
 ### Compute infrastructure
 Jean Zay Public Supercomputer, provided by the French government (see [announcement](https://www.enseignementsup-recherche.gouv.fr/fr/signature-du-marche-d-acquisition-de-l-un-des-supercalculateurs-les-plus-puissants-d-europe-46733)).
@@ -371,6 +372,11 @@ Intentionally using the model for harm, violating [human rights](#human-rights),
 
 -   Generating content without attribution to the model, as specified in the [RAIL License, Use Restrictions](https://huggingface.co/spaces/bigscience/license)
 
+## Intermediate checkpoints
+
+For academic (or any) usage, we published the intermediate checkpoints, corresponding to the model state at each 5000 steps. Please follow [this link](https://huggingface.co/bigscience/bloom-176-intermediate) to get these checkpoints.
+
+
 ## Intended Users
 
 ### Direct Users
@@ -406,6 +412,7 @@ Intentionally using the model for harm, violating [human rights](#human-rights),
 </details>
 
 ---
+
 
 # Risks and Limitations
 *This section identifies foreseeable harms and misunderstandings.*
