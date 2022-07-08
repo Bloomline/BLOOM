@@ -53,28 +53,28 @@ pipeline_tag: text-generation
 widget:
 - text: Language idioms. It's raining
   example_title: Language idioms
-  group: en
+  group: English
 - text: Idiomes linguistiques. Il pleut
   example_title: Language idioms
-  group: fr
+  group: Français
 - text: "A \"whatpu\" is a small, furry animal native to Tanzania. An example of a sentence that uses the word whatpu is: We were traveling in Africa and we saw these very cute whatpus.\nTo do a \"farduddle\" means to jump up and down really fast. An example of a sentence that uses the word farduddle is:"
   example_title: Imaginary word
-  group: en
+  group: English
 - text: "Un \"whatpu\" est un petit animal à fourrure originaire de Tanzanie. Un exemple d'une phrase qui utilise le mot whatpu est: Nous étions en Afrique et nous avons vu des whatpus trop mignons.\"Faire un \"farduddle\" veut dire sauter sur place vraiment vite. Un exemple de phrase qui utilise le mot farduddle est:"
   example_title: Imaginary word
-  group: fr
+  group: Français
 - text: "Un \"whatpu\" es un pequeño animal peludo nativo de Tanzania. Un ejemplo de una oración que usa la palabra whatpu es: Estábamos viajando por África y vimos estos whatpus muy bonitos.\"Hacer un \"farduddle\" significa saltar arriba y abajo muy rápido. Un ejemplo de una oración que usa la palabra farduddle es:"
   example_title: Imaginary word
-  group: es
+  group: Español
 - text:"ال"واتبو" هو حيوان صغير مكسو بالفراء يعيش في تنزانيا. مثال على جملة تستخدم كلمة واتبو هي: كنا نسافر في افريقيا و رأينا هؤلاء الواتبو اللطفاء. \n للقيام ب"فاردادل" يعني ان تقفز للأعلى و الأسفل بسرعة كبيرة. مثال على جملة تستخدم كلمة فاردادل هي:"
   example_title: Imaginary word
-  group: ar
+  group: العربية
 - text: "\"ワトプー\"はタンザニアに生息する毛むくじゃらの小動物である。ワトプーを使った例文は以下の通りです：\n私たちはアフリカを旅行していて、とてもかわいいワトプーを見た。\n\"ファルドドル\"はとても速く飛び跳ねることを意味します。ファルドドルを使った例文は以下の通りです："
   example_title: Imaginary word
-  group: jp
+  group: 日本語
 - text: "Um \"whatpu\" é um pequeno animal peludo nativo da Tanzânia. Um exemplo de uma frase que usa a palavra whatpu é: Estávamos a viajar por África e vimos uns whatpus muito queridos.\"Fazer um \"farduddle\" significa saltar para cima e para baixo muito rápido. Um exemplo de uma frase que usa a palavra farduddle é:"
   example_title: Imaginary word
-  group: pt
+  group: Portugues
 ---
 
 <h1 style='text-align: center '>BLOOM LM</h1> 
