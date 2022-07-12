@@ -2165,6 +2165,8 @@ And multiple different metrics for specific tasks. _(More evaluation metrics for
 ##  Results
 *Results are based on the [Factors](#factors) and [Metrics](#metrics).*
 
+**Zero-shot evaluations:**
+
 See this repository for JSON files: https://github.com/bigscience-workshop/evaluation-results
 
 | Task | Language | Metric | BLOOM-176B | OPT-175B* |
