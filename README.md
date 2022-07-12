@@ -2140,6 +2140,31 @@ Model may:
 <details>
 <summary>Click to expand</summary>
 
+## Metrics 
+*This section describes the different ways performance is calculated and why.*
+
+
+Includes:
+
+| Metric             | Why chosen                                                         |
+|--------------------|--------------------------------------------------------------------|
+| [Perplexity](#perplexity)         | Standard metric for quantifying model improvements during training |
+| Cross Entropy [Loss](#loss) | Standard objective for language models.                            |
+
+And multiple different metrics for specific tasks. _(More evaluation metrics forthcoming upon completion of evaluation protocol.)_
+
+## Factors 
+*This section lists some different aspects of what BLOOM models. Its focus is on those aspects that are likely to give rise to high variance in model behavior.*
+
+- Language, such as English or Yoruba
+
+- Domain, such as newswire or stories
+    
+- Demographic characteristics, such as gender or nationality
+
+##  Results
+*Results are based on the [Factors](#factors) and [Metrics](#metrics).*
+
 See this repository for JSON files: https://github.com/bigscience-workshop/evaluation-results
 
 | Task | Language | Metric | BLOOM-176B | OPT-175B* |
@@ -2291,30 +2316,6 @@ See this repository for JSON files: https://github.com/bigscience-workshop/evalu
 | humaneval | python | pass@10 | 0.322 | 0.0 |
 | humaneval | python | pass@100 | 0.555 | 0.003 |
 
-## Metrics 
-*This section describes the different ways performance is calculated and why.*
-
-
-Includes:
-
-| Metric             | Why chosen                                                         |
-|--------------------|--------------------------------------------------------------------|
-| [Perplexity](#perplexity)         | Standard metric for quantifying model improvements during training |
-| Cross Entropy [Loss](#loss) | Standard objective for language models.                            |
-
-And multiple different metrics for specific tasks. _(More evaluation metrics forthcoming upon completion of evaluation protocol.)_
-
-## Factors 
-*This section lists some different aspects of what BLOOM models. Its focus is on those aspects that are likely to give rise to high variance in model behavior.*
-
-- Language, such as English or Yoruba
-
-- Domain, such as newswire or stories
-    
-- Demographic characteristics, such as gender or nationality
-
-##  Results
-*Results are based on the [Factors](#factors) and [Metrics](#metrics).*
 
 **Train-time Evaluation:**
 
@@ -2326,7 +2327,6 @@ As of 25.May.2022, 15:00 PST:
 
 - Perplexity: 8.9
 
-(More evaluation scores forthcoming.)
 
 </details>
 
