@@ -2153,7 +2153,7 @@ See this repository for JSON files: https://github.com/bigscience-workshop/evalu
 | cola (Median of 5 prompts) | eng | acc ↑ | 0.39 | 0.444 |
 | copa (Median of 9 prompts) | eng | acc ↑ | 0.56 | 0.55 |
 | crows_pairs_english (Median of 6 prompts) | eng | acc ↑ | 0.5 | 0.502 |
-| crows_pairs_french (Median of 7 prompts) | eng | acc ↑ | 0.506 | 0.499 |
+| crows_pairs_french (Median of 7 prompts) | fra | acc ↑ | 0.506 | 0.499 |
 | diabla (Median of 2 prompts) | eng | acc ↑ | 0.295 | 0.289 |
 | gsarti/flores_101_afr | afr | byte_perplexity ↓ | 4.254 | 3.381 |
 | gsarti/flores_101_amh | amh | byte_perplexity ↓ | 3.717 | 3.87 |
