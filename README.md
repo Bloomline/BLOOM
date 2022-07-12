@@ -2319,14 +2319,15 @@ See this repository for JSON files: https://github.com/bigscience-workshop/evalu
 
 **Train-time Evaluation:**
 
-As of 25.May.2022, 15:00 PST:
+Final checkpoint after 95K steps:
 
-- Training Loss: 2.0
+- Training Loss: 1.939
 
-- Validation Loss: 2.2
+- Validation Loss: 2.061
 
-- Perplexity: 8.9
+- Perplexity: 7.045
 
+For more see: https://huggingface.co/bigscience/tr11-176B-ml-logs
 
 </details>
 
