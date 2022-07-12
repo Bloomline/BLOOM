@@ -1772,7 +1772,7 @@ Version 1.3 / 6.July.2022
 
 Current Checkpoint: **Training Iteration  95000**
 
-Training Information: unique tokens: **341B** | total seen tokens: **366B**
+Total seen tokens: **366B**
 
 ---
 
