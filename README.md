@@ -2154,12 +2154,12 @@ Includes:
 And multiple different metrics for specific tasks. _(More evaluation metrics forthcoming upon completion of evaluation protocol.)_
 
 ## Factors 
-*This section lists some different aspects of what BLOOM models. Its focus is on those aspects that are likely to give rise to high variance in model behavior.*
+*This section lists some different aspects of BLOOM models. Its focus is on aspects that are likely to give rise to high variance in model behavior.*
 
 - Language, such as English or Yoruba
 
 - Domain, such as newswire or stories
-    
+
 - Demographic characteristics, such as gender or nationality
 
 ##  Results
