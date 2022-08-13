@@ -17,6 +17,7 @@
   "n_layer": 70,
   "num_attention_heads": 112,
   "pretraining_tp": 4,
+  "seq_length": 2048,
   "slow_but_exact": false,
   "transformers_version": "4.21.0",
   "use_cache": true,
