@@ -235,6 +235,14 @@ BLOOM is an autoregressive Large Language Model (LLM), trained to continue text 
 
 **Cite as:** BigScience, _BigScience Language Open-science Open-access Multilingual (BLOOM) Language Model_. International, May 2021-May 2022
 
+```bibtex
+@misc{BLOOMmodelcard,
+    author = {BigScience},
+    title = {{BigScience Language Open-science Open-access Multilingual (BLOOM) Language Model}},
+    howpublished = {\url{https://huggingface.co/bigscience/bloom/}},
+    date = {May 2021-May 2022} 
+```
+
 **Funded by:** 
     
 * The French government.
