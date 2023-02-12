@@ -47,7 +47,7 @@ language:
 - yo
 - zh
 - zu
-programming_language: 
+programming_language:
 - C
 - C++
 - C#
@@ -61,22 +61,41 @@ programming_language:
 - Rust
 - Scala
 - TypeScript
-pipeline_tag: text-generation
+pipeline_tag: reinforcement-learning
 widget:
-- text: 'A "whatpu" is a small, furry animal native to Tanzania. An example of a sentence that uses the word whatpu is: We were traveling in Africa and we saw these very cute whatpus. | To do a "farduddle" means to jump up and down really fast. An example of a sentence that uses the word farduddle is:'
+- text: >-
+    A "whatpu" is a small, furry animal native to Tanzania. An example of a
+    sentence that uses the word whatpu is: We were traveling in Africa and we
+    saw these very cute whatpus. | To do a "farduddle" means to jump up and down
+    really fast. An example of a sentence that uses the word farduddle is:
   example_title: Imaginary word
   group: English
-- text: 'Un "whatpu" est un petit animal à fourrure originaire de Tanzanie. Un exemple de phrase qui utilise le mot whatpu est: Nous étions en Afrique et nous avons vu des whatpus trop mignons. Faire un "farduddle" veut dire sauter sur place vraiment vite. Un exemple de phrase qui utilise le mot farduddle est:'
+- text: >-
+    Un "whatpu" est un petit animal à fourrure originaire de Tanzanie. Un
+    exemple de phrase qui utilise le mot whatpu est: Nous étions en Afrique et
+    nous avons vu des whatpus trop mignons. Faire un "farduddle" veut dire
+    sauter sur place vraiment vite. Un exemple de phrase qui utilise le mot
+    farduddle est:
   example_title: Imaginary word
   group: French
-- text: 'Un "whatpu" es un pequeño animal peludo nativo de Tanzania. Un ejemplo de una oración que usa la palabra whatpu es: Estábamos viajando por África y vimos estos whatpus muy bonitos. Hacer un "farduddle" significa saltar arriba y abajo muy rápido. Un ejemplo de una oración que usa la palabra farduddle es:'
+- text: >-
+    Un "whatpu" es un pequeño animal peludo nativo de Tanzania. Un ejemplo de
+    una oración que usa la palabra whatpu es: Estábamos viajando por África y
+    vimos estos whatpus muy bonitos. Hacer un "farduddle" significa saltar
+    arriba y abajo muy rápido. Un ejemplo de una oración que usa la palabra
+    farduddle es:
   example_title: Imaginary word
   group: Spanish
 - text: ' ال"واتبو" هو حيوان صغير مكسو بالفراء يعيش في تنزانيا. مثال على جملة تستخدم كلمة واتبو هي: كنا نسافر في افريقيا و رأينا هؤلاء الواتبو اللطفاء. للقيام ب"فاردادل" يعني ان تقفز للأعلى و الأسفل بسرعة كبيرة. مثال على جملة تستخدم كلمة فاردادل هي:'
   example_title: Imaginary word
   group: Arabic
-- text: 'Um "whatpu" é um pequeno animal peludo nativo da Tanzânia. Um exemplo de uma frase que usa a palavra whatpu é: Estávamos a viajar por África e vimos uns whatpus muito queridos. Fazer um "farduddle" significa saltar para cima e para baixo muito rápido. Um exemplo de uma frase que usa a palavra farduddle é:'
-  example : Imaginary word
+- text: >-
+    Um "whatpu" é um pequeno animal peludo nativo da Tanzânia. Um exemplo de uma
+    frase que usa a palavra whatpu é: Estávamos a viajar por África e vimos uns
+    whatpus muito queridos. Fazer um "farduddle" significa saltar para cima e
+    para baixo muito rápido. Um exemplo de uma frase que usa a palavra farduddle
+    é:
+  example: Imaginary word
   group: Portuguese
 - text: Pour déguster un ortolan, il faut tout d'abord
   example_title: Recipe
@@ -125,12 +144,14 @@ widget:
   example_title: Translation from English
   group: Hindi
 - text: 'Poor English: She no went to the market. Corrected English:'
-  example_title: Grammar exercise 1 
+  example_title: Grammar exercise 1
   group: English
 - text: 'استخراج العدد العاملي في لغة بايثون:'
   example_title: Code generation
   group: Arabic
-- text: 'Regexp. Here is a regular expression to match a word starting with a number and then having only vowels:'
+- text: >-
+    Regexp. Here is a regular expression to match a word starting with a number
+    and then having only vowels:
   example_title: Regular expressions
   group: English
 - text: |-
@@ -145,13 +166,25 @@ widget:
     She drove X the bridge. X is the preposition
   example_title: Grammar exercise 2
   group: English
-- text: |-
-    Traduction en français: Dans cet essai je vais m'interroger sur la conscience des modèles d'intelligence artificielle récents comme les modèles de langue. Pour commencer, je m'intéresserai à la notion de conscience et à ce qui la caractérise. Ensuite, j'aborderai la question de l'intelligence et de son lien avec le langage. Enfin, dans une dernière partie je me pencherai sur le cas de l'IA et sur sa conscience.
+- text: >-
+    Traduction en français: Dans cet essai je vais m'interroger sur la
+    conscience des modèles d'intelligence artificielle récents comme les modèles
+    de langue. Pour commencer, je m'intéresserai à la notion de conscience et à
+    ce qui la caractérise. Ensuite, j'aborderai la question de l'intelligence et
+    de son lien avec le langage. Enfin, dans une dernière partie je me pencherai
+    sur le cas de l'IA et sur sa conscience.
+
     Traduction en espagnol:
   example_title: Translation to Spanish
   group: French
-- text: |-
-    Traducción al francés: Dans cet essai je vais m'interroger sur la conscience des modèles d'intelligence artificielle récents comme les modèles de langue. Pour commencer, je m'intéresserai à la notion de conscience et à ce qui la caractérise. Ensuite, j'aborderai la question de l'intelligence et de son lien avec le langage. Enfin, dans une dernière partie je me pencherai sur le cas de l'IA et sur sa conscience.
+- text: >-
+    Traducción al francés: Dans cet essai je vais m'interroger sur la conscience
+    des modèles d'intelligence artificielle récents comme les modèles de langue.
+    Pour commencer, je m'intéresserai à la notion de conscience et à ce qui la
+    caractérise. Ensuite, j'aborderai la question de l'intelligence et de son
+    lien avec le langage. Enfin, dans une dernière partie je me pencherai sur le
+    cas de l'IA et sur sa conscience.
+
     Traducción al español:
   example_title: Translation from French
   group: Spanish
@@ -164,19 +197,21 @@ widget:
 - text: Il était une fois une licorne qui vivait
   example_title: Fairy tale
   group: French
-- text: |-
-    Q: A juggler can juggle 16 balls. Half of the balls are golf balls, and half of the golf balls are blue. How many blue golf balls are there?
+- text: >-
+    Q: A juggler can juggle 16 balls. Half of the balls are golf balls, and half
+    of the golf balls are blue. How many blue golf balls are there?
+
     A: Let's think step by step.
   example_title: Mathematical reasoning
   group: English
-
 co2_eq_emissions:
-  emissions: 24_700_000
-  source: "Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model. https://arxiv.org/abs/2211.02001"
-  training_type: "pre-training"
-  geographical_location: "Orsay, France"
-  hardware_used: "384 A100 80GB GPUs"
-
+  emissions: 24700000
+  source: >-
+    Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model.
+    https://arxiv.org/abs/2211.02001
+  training_type: pre-training
+  geographical_location: Orsay, France
+  hardware_used: 384 A100 80GB GPUs
 model-index:
 - name: bloom
   results:
@@ -198,6 +233,13 @@ model-index:
       type: pass@100
       value: 0.5719815685597749
       verified: false
+datasets:
+- fka/awesome-chatgpt-prompts
+- gsdf/EasyNegative
+- Nerfgun3/sakimi-chan_LoRA
+metrics:
+- accuracy
+- character
 ---
 
 <img src="https://s3.amazonaws.com/moonup/production/uploads/1657124309515-5f17f0a0925b9863e28ad517.png" alt="BigScience Logo" width="800" style="margin-left:'auto' margin-right:'auto' display:'block'"/>
