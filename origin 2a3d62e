@@ -1,0 +1,7 @@
+BLOOM is an open-access multilingual language model that contains 176 billion parameters and was trained for 3.5 months on 384 A100–80GB GPUs.
+A BLOOM checkpoint takes 330 GB of disk space, so it seems unfeasible to run this model on a desktop computer.
+However, you just need enough disk space, at least 16GB of RAM, and some patience (you don’t even need a GPU), to run this model on your computer.
+
+BLOOM is a collaborative effort of more than 1,000 scientist and the amazing Hugging Face team. 
+It is remarkable that such large multi-lingual model is openly available for everybody.
+By the end of this tutorial, you will learn how to run this massive language model on your local computer and see it in action generating texts such as:
