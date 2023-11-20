@@ -749,3 +749,16 @@ Many intermediate checkpoints are available at https://huggingface.co/bigscience
 *Ordered roughly chronologically and by amount of time spent on creating this model card.*
 
 Margaret Mitchell, Giada Pistilli, Yacine Jernite, Ezinwanne Ozoani, Marissa Gerchick, Nazneen Rajani, Sasha Luccioni, Irene Solaiman, Maraim Masoud, Somaieh Nikpoor, Carlos Muñoz Ferrandis, Stas Bekman, Christopher Akiki, Danish Contractor, David Lansky, Angelina McMillan-Major, Tristan Thrush, Suzana Ilić, Gérard Dupont, Shayne Longpre, Manan Dey, Stella Biderman, Douwe Kiela, Emi Baylor, Teven Le Scao, Aaron Gokaslan, Julien Launay, Niklas Muennighoff
+# [Open LLM Leaderboard Evaluation Results](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+Detailed results can be found [here](https://huggingface.co/datasets/open-llm-leaderboard/details_bigscience__bloom)
+
+| Metric                | Value                     |
+|-----------------------|---------------------------|
+| Avg.                  | 40.15   |
+| ARC (25-shot)         | 50.43          |
+| HellaSwag (10-shot)   | 76.41    |
+| MMLU (5-shot)         | 30.85         |
+| TruthfulQA (0-shot)   | 39.76   |
+| Winogrande (5-shot)   | 72.06   |
+| GSM8K (5-shot)        | 6.9        |
+| DROP (3-shot)         | 4.66         |
